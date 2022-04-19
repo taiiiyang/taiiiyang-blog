@@ -1,0 +1,74 @@
+.archiveBox {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .archive-title {
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .archiveBox .class {
+    width: 100%;
+  }
+  
+  .archiveBox .class .class-title {
+    padding: 0 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .archiveBox .class ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 20px;
+  }
+  
+  .archiveBox .class ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ab3300;
+    text-decoration: none;
+  }
+  
+  .archiveBox .class ul li[class="active"] {
+    background-color: rgba(171, 51, 0, 0.6);
+  }
+
+  .archiveBox .class ul li[class="active"] span{
+      color: #fff  !important;
+  }
+
+  .archiveBox .archive-main{
+      padding: 20px;
+  }
+
+  .archiveBox .article-list section{
+    font-size: 15px;
+  }
+
+  .archiveBox .article-list section >  p {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .archiveBox .article-list section .archive-article {
+      cursor: pointer;
+  }
+

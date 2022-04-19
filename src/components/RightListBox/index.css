@@ -1,0 +1,111 @@
+.rightlistBox {
+  width: 100%;
+}
+
+.rightlistBox .user-profile {
+  height: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.user-profile:hover {
+  box-shadow: 0 15px 30px rgb(255 255 255 / 10%);
+  -webkit-box-shadow: 0 15px 30px rgb(255 255 255 / 10%);
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+}
+
+.user-profile #profileImage {
+  width: 100%;
+}
+
+.user-profile #description {
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+}
+
+.user-profile .link-group {
+  margin: 20px auto 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-profile .link-group a {
+  display: inline-block;
+  margin-bottom: 7px;
+  position: relative;
+  text-decoration: none;
+}
+
+.link-group i {
+    /* 让i撑大父元素，调整样式 */
+  display: inline-block;
+  font-size: 18px;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 42px;
+  color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-style: normal;
+  margin: 0 3.2px;
+}
+
+.user-profile .link-group i:hover {
+  background-color: rgb(244, 105, 44);
+  color: rgb(225, 225, 255);
+  transition: all 0.1s ease-in;
+}
+
+.thumb {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #df2050;
+  cursor: pointer;
+}
+
+.thumb:hover {
+  box-shadow: 0 15px 30px rgb(255 255 255 / 10%);
+  -webkit-box-shadow: 0 15px 30px rgb(255 255 255 / 10%);
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  transition: all 0.1s ease-in;
+}
+
+.thumb p {
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.thumb div {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.thumb div i {
+  margin-right: 10px;
+  transition: all 0.2s ease-in;
+}
+
+.thumb div i:hover {
+  transform: scale(1.5);
+}

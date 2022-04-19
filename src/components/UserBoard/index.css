@@ -1,0 +1,69 @@
+.user-board{
+    background-image: url("@/assets/head-image.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    z-index: 2022;
+}
+
+.user-board .scene{
+    position:absolute;
+    top:10vh;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    padding: 0 15%;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: Sigmar One,Arial;
+    text-shadow: 0 2px 2px #47456d;
+}
+
+.user-board .scene .typed-element{
+    justify-content: center;
+}
+.user-board .h-information{
+    width: 70%;
+    height: 200px;
+    position: relative;
+    top:calc(100vh - 100px);
+    margin:auto;
+    background-color: rgba(230,244,249,.8);
+    opacity: .98;
+}
+
+.user-board .h-information .avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.user-board .h-information .avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    transition: transform .5s ease-in;
+
+}
+
+.user-board .h-information .quote{
+    font-size: 18px;
+    font-weight: 700;
+    color: #97dffd;
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+.user-board .h-information .avatar img:hover{
+    transform:rotateZ(360deg);
+}
+

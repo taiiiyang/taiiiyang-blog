@@ -1,0 +1,76 @@
+.article{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+
+.article .date-board{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #97dffd;
+    color: #ffffff;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 3px;
+}
+
+.article .date-board p:first-child{
+    margin-top: 10%;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.article .date-board p:last-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.article .title{
+    font-size: 30px;
+    font-family: Helvetica ;
+    font-weight: 400;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: -50px;
+}
+
+.article .description{
+    font-size: 10px;
+    height: 30px;
+}
+
+.article header{
+    border-bottom:1px solid rgba(0,0,0, .1);
+    margin-bottom:30px;
+}
+
+.article footer {
+    width: 100%;
+}
+
+.article footer #viewDetail {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #444;
+    color: #444;
+    font-weight: lighter;
+    background-color: transparent;
+    position: relative;
+    left: calc(50% - 40px);
+    transform-origin: 50% 50%;
+    transition: all .1s linear;
+    cursor: pointer;
+}
+
+.article footer #viewDetail:hover{
+    transform:scale(1.1)
+}

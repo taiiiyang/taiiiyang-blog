@@ -1,24 +1,10 @@
-# taiiiyang-blog
+# 3.31
+从最初直连发现数据库异步创建，使用generator与yield。使用await逐步调用数据库api操作得到返回值并进行下一步操作
+实现异步创建并连接数据库，简化增删改查各接口函数内容，并将各接口通过路由暴露
 
-## Project setup
-```
-npm install
-```
+# 4.1 
+完善增删改查四接口并向外暴露，能够对参数进行错误处理，可在项目中携带正确参数进行访问，正确信息在响应体的data变量中，可以正常开发
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## ？
+在滚动事件触发的时候监听不到this.$refs,内部值为undefined
+计算属性结合节流函数在滚动事件失效，可能是作用域问题
